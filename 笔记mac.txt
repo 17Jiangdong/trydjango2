@@ -1,0 +1,5 @@
+mac: source venv/bin/activate
+deactivate
+
+git add .
+git status
