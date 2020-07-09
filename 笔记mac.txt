@@ -4,4 +4,4 @@ deactivate
 git add .
 git status
 git commit -m "from LT"
-
+git push -u origin master
