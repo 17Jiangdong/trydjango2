@@ -12,13 +12,13 @@
         venv\Scripts\deactivate.bat
         pip install django
 
-        git init
+git init
 
-    git remote add origin git@github.com:
-    git add .
-    git commit -m "trydjango2"
-    git push -u origin master
-    git log
+git remote add origin git@github.com:
+git add .
+git commit -m "from wins"
+git push -u origin master
+git log
 
 pip freeze > requirements.txt
 pip install -r requirements.txt
@@ -59,13 +59,6 @@ ssh-keygen -t rsa -b 4096 -C "yujiangdong8@gmail.com"
 eval \$(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
-新建一个 github repository
-git init
-git remote add origin git@github.com:
-git add .
-git commit -m "trydjango2"
-git push -u origin master
-git log
 
 pip freeze > requirements.txt
 pip install -r requirements.txt
